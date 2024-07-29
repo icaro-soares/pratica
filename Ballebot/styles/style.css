@@ -7,7 +7,7 @@
     --cor3: #8E5D52;
     --cor4: #2F2325;
     --fonte1: 'Sarala', sans-serif;
-    --fonte2: 'Righteous', sans-serif;
+    --fonte2: 'Righteous', cursive;
 }
 
 body {
@@ -35,3 +35,44 @@ body {
     font-family: var(--fonte1);
     color: var(--cor1);
 }
+
+.principal {
+    margin: auto;
+    border-top: .1em solid var(--cor1);
+}
+
+.principal-secao-texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-secao-texto-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.principal-secao-texto-principal-titulo {
+    font-family: var(--fonte2);
+    font-size: 3em;
+}
+
+.principal-secao-texto-principal-paragrafo {
+    font-family: var(--fonte1);
+    font-size: 1em;
+}
+
+.principal-secao-texto-principal-botao {
+    width: 90px;
+    box-shadow: 1px 1px 1px #00000052;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 1em;
+    font-family: var(--fonte1);
+    background-color: var(--cor2);
+    color: var(--cor4);
+    padding: 1em 2em;
+}
+
