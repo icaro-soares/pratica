@@ -18,19 +18,8 @@ body {
 }
 
 .cabecalho {
-    margin: 1em 10em;
+    margin: .5em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-}
-
-.cabecalho__navegacao {
-    display: flex;
-    gap: 3em;
-}
-
-.cabecalho__navegacao__link {
-    text-decoration: none;
-    color: var(--cor1);
-    font-family: var(--fonte1);
 }
