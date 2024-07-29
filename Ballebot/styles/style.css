@@ -76,3 +76,24 @@ body {
     padding: 1em 2em;
 }
 
+.principal-secao-secundaria {
+    border-top: .1em solid var(--cor1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 1em;
+}
+
+.principal-secao-secundaria-titulo {
+    font-family: var(--fonte2);
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+
+.principal-secao-secundaria-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
