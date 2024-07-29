@@ -14,7 +14,7 @@ body {
     background-image: linear-gradient(to right, var(--cor3), var(--cor4));
     color: var(--cor1);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .cabecalho {
@@ -34,3 +34,7 @@ body {
     color: var(--cor1);
     font-family: var(--fonte1);
 } 
+
+.principal {
+    border-top: .1em solid var(--cor1);
+}
