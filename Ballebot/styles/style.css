@@ -17,3 +17,24 @@ body {
     font-size: 14px;
     font-family: var(--fonte1);
 }
+
+.cabecalho {
+    margin-top: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    gap: 1.5em;
+}
+
+.cabecalho__navegacao__link {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.cabecalho__navegacao__link:hover {
+    text-decoration: underline;
+}
