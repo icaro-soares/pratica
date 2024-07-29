@@ -90,5 +90,19 @@ body {
 .principal-secao-secundaria-lista {
     display: flex;
     flex-direction: column;
+    margin-bottom: 2em;
     gap: 2em;
+}
+
+.principal-secao-secundaria-lista-destaque {
+    color: var(--cor2);
+    font-weight: bold;
+}
+
+.rodape {
+    margin-top: 1em;
+    border-top: .4px solid var(--cor1);
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-around;
 }
