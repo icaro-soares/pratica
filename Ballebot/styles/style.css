@@ -23,3 +23,15 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+.cabecalho__navegacao {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.cabecalho__navegacao__link {
+    text-decoration: none;
+    font-family: var(--fonte1);
+    color: var(--cor1);
+}
