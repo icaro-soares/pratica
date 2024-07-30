@@ -1,0 +1,41 @@
+.cabecalho {
+    margin: 2em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: var(--fonte-principal);
+}
+
+.cabecalho-titulo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cabecalho-navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.cabecalho-navegacao-links {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.cabecalho-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 11px;
+}
+
+.cabecalho-div-pesquisa {
+    border: none;
+    font-size: 16px;
+}
+
+.cabecalho-navegacao-links:hover {
+    text-decoration: underline;
+}

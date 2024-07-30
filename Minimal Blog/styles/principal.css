@@ -1,0 +1,82 @@
+.principal {
+    padding: 3em 0;
+}
+
+.principal-artigo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-artigo-secao {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.principal-artigo-secao-titulo {
+    width: 354px;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+}
+
+.principal-artigo-secao-titulo::after {
+    content: url('assets/cafe.png');
+    display: inline-block;
+    align-items: center;
+}
+
+.principal-artigo-secao-subtitulo {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    color: gray; 
+}
+
+.principal-long {
+    border: 1px solid #808080a6;
+    border-radius: .5em;
+    margin: 2.5em;
+    display: flex;
+    align-items: center;
+}
+
+.principal-long section {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5em 3em;
+}
+
+.principal-long-titulo {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+}
+
+.principal-long-texto {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    color: gray;
+    padding: 1em 0;
+}
+
+.principal-long div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data {
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    color: gray;
+}
+
+.saber-mais {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: var(--fonte-principal);
+}
