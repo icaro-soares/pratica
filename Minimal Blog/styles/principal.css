@@ -21,12 +21,13 @@
 .principal-destaque {
     border: 1px solid rgba(165, 161, 161, 0.541);
     margin: 2.5em 6em;
-    border-radius: .5em;
     display: flex;
     align-items: center;
 }
 
 .principal-destaque-div {
+    margin: auto;
+    width: 900px;
     text-align: justify;
     line-height: 1.5em;
     padding: 2.5em 5em;
@@ -60,4 +61,25 @@
 
 .principal-destaque-info-link:hover {
     text-decoration: underline;
+}
+
+.principal-img {
+    position: relative;
+    background-position: center right;
+}
+
+.principal-cards {
+    margin: 0 6em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+#card {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+    text-align: justify;
 }
