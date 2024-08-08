@@ -68,18 +68,3 @@
     background-position: center right;
 }
 
-.principal-cards {
-    margin: 0 6em;
-    display: flex;
-    align-items: center;
-    gap: 2em;
-}
-
-#card {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1em;
-    text-align: justify;
-}
