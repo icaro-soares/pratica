@@ -1,0 +1,60 @@
+.linha {
+    width: 100%;
+    border: 1px solid var(--cor0);
+    margin: .5em 0;
+}
+
+.secao-novos {
+    margin: 0 5em;
+    padding-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-novos-titulo {
+    color: var(--preto-metalico);
+    font: 600 24px 'Poppins', sans-serif;
+}
+
+.secao-novos-bloco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secao-novos-info {
+    margin: 0 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-novos-genero,
+.secao-novos-links {
+    display: flex;
+    justify-content: space-between;
+    color: var(--preto-metalico);
+    font: 500 17px 'Poppins', sans-serif;
+
+}
+
+.secao-novos-bloco-subtitulo {
+    padding-top: 1em;
+    color: var(--preto-metalico);
+    font: 700 25px 'Poppins', sans-serif;
+}
+
+.secao-novos-texto {
+    padding: 1em 0;
+    color: var(--preto-metalico);
+    font: 400 14px 'Poppins', sans-serif;
+}
+
+.secao-novos-links > a {
+    text-decoration: none;
+    color: var(--preto-metalico);
+    font: 700 17px 'Poppins', sans-serif;
+}
+
+.secao-novos-links > a:hover {
+    text-decoration: underline;
+}
